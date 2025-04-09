@@ -52,10 +52,10 @@
         raise_layer {
             display-name = "NUM";
             bindings = <
-&trans  &trans           &trans  &trans  &trans  &trans       &trans     &trans    &trans            &trans             &trans     &trans
-&trans  &kp INS          &trans  &trans  &trans  &kp C_EJECT  &kp MINUS  &kp PLUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE  &kp NON_US_BACKSLASH
-&trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans       &trans     &trans    &trans            &trans             &trans     &trans
-                                 &trans  &mo 3   &trans       &trans     &mo 3     &trans
+&trans  &trans           &trans  &trans  &trans  &trans       &trans     &trans     &trans            &trans             &trans     &trans
+&trans  &kp INS          &trans  &trans  &trans  &kp C_EJECT  &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE  &kp NON_US_BACKSLASH
+&trans  &kp PRINTSCREEN  &trans  &trans  &trans  &trans       &trans     &trans     &trans            &trans             &trans     &trans
+                                 &trans  &mo 3   &trans       &trans     &mo 3      &trans
             >;
         };
 
